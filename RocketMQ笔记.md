@@ -166,7 +166,7 @@ Apache RocketMQ在4.3.0版中已经支持分布式事务消息，这里RocketMQ�
 
 ### 消息存储
 
-![img](https://github.com/apache/rocketmq/raw/master/docs/cn/image/rocketmq_design_1.png)
+![img](https://cdn.nlark.com/yuque/0/2022/png/26318626/1657371502575-cbc03dd2-5488-44ba-8e8f-c8472addfd0b.png)
 
 消息存储架构图中主要有下面三个跟消息存储相关的文件构成。
 
