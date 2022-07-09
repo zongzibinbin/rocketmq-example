@@ -20,7 +20,7 @@ RocketMQ的起源受到另一款消息中间件Kafka的启发。最初，淘宝�
 
 ## 技术架构
 
-![img](https://github.com/apache/rocketmq/raw/master/docs/cn/image/rocketmq_architecture_3.png)
+![img](https://cdn.nlark.com/yuque/0/2022/png/26318626/1657371254694-1f06859a-00b3-4c98-9354-e1d372c343d1.png)
 
 RocketMQ架构上主要分为四部分，如上图所示:
 
@@ -42,7 +42,7 @@ RocketMQ架构上主要分为四部分，如上图所示:
   - **HA Service**：高可用服务，提供Master Broker 和 Slave Broker之间的数据同步功能。
   - **Index Service**：根据特定的Message key对投递到Broker的消息进行索引服务，以提供消息的快速查询。
 
-![img](https://github.com/apache/rocketmq/raw/master/docs/cn/image/rocketmq_architecture_2.png)
+![img](https://cdn.nlark.com/yuque/0/2022/png/26318626/1657371288878-879ab2f2-4502-48cb-b169-c410bdee74bd.png)
 
 ## producer
 
